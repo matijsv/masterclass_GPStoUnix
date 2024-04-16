@@ -45,8 +45,3 @@ function gps2unix(gpsTime) {
     }
     return unixTime;
   }
-
-function calculate() {
-    var inputValue = document.getElementById("inputField").value
-    document.getElementById("outputField").value = gps2unix(inputValue)
-}
